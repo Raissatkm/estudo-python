@@ -6,8 +6,8 @@ print(soma)"""
 login = "admin"
 senha = 23 
 
-login_dig = input("Digite seu login:")
-senha_dig = input("Digite sua senha:")
+login_dig = str(input("Digite seu login:"))
+senha_dig = int(input("Digite sua senha:"))
 
 if login == login_dig and senha == senha_dig:
     print("Acesso permitido!")
